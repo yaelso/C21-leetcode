@@ -17,15 +17,15 @@ print(isPalindrome("race a car")) # false
 print(isPalindrome("A man, a plan, a canal: Panama")) # true
 print(isPalindrome(" ")) # true
 
-# Alternative Solution:
+# Alternative Solution 1:
 
-# def isPalindrome(s):
-#     clean_string = ''.join(filter(str.isalnum, s)).lower()
-#     left, right = 0, len(clean_string) - 1
+def isPalindromeAlt1(s):
+    clean_string = ''.join(filter(str.isalnum, s)).lower()
+    left, right = 0, len(clean_string) - 1
 
-#     while left < right:
-#         if clean_string[left] != clean_string[right]:
-#             return False
-#         left += 1
-#         right -= 1
-#     return True
+    while left < right:
+        if clean_string[left] != clean_string[right]:
+            return False
+        left += 1
+        right -= 1
+    return True
