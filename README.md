@@ -1,4 +1,5 @@
 # C21-leetcode
-This is a repository for all of my Ada Developers Academy C21 code challenge solutions, divided by language.
+A collection of LeetCode and similar code challenge solutions, divided by language.
 
 ## Table of Contents
+To do!
